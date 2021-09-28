@@ -1,0 +1,93 @@
+/* General */
+
+/* Nav items edit */
+/* 1. Remove the default link underline */
+a {
+  text-decoration: none;
+}
+
+/* 2. Give them some breathing room */
+nav * {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Add the hovering underline */
+.hover_target:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Header*/
+
+#uppernav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#app_logo {
+  height: 1.35em;
+}
+
+#blue_button {
+  background-color: blue;
+}
+
+
+
+/* Central part */
+
+/* Center everything both horizontally and vertically */
+section
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Add some space, let it breathe */
+section * {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+/* Footer */
+
+footer {
+  background-color: #F0F0F0;
+}
+
+#green_token_sentence {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+#lowernav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.lnav_element {
+  display: flex;
+}
+
+/* Make a final flex container and spread the major structures vertically */
+
+html, body {
+height: 98%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
